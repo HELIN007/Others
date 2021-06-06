@@ -1,0 +1,449 @@
+# https://example.com/Clash.yaml
+
+
+
+
+# 
+# 
+# 
+
+external-controller: 127.0.0.1:9090
+port: 7890
+socks-port: 7891
+redir-port: 7892
+
+
+
+proxies: [{"type":"vmess","cipher":"auto","name":"🇸🇬 4.6请大家更新订阅，更新时关闭代理","server":"4.6请大家更新订阅","port":1234,"udp":false,"uuid":"da48c7f0-a96d-468b-b056-348a7104f777","alterId":"0","tls":false},{"type":"vmess","cipher":"auto","name":"🇭🇰 动态BGP+IPLC|广港01by轩动心弦","server":"flbgp.yixuedianzishu.com","port":58011,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","tls":false},{"type":"vmess","cipher":"auto","name":"🇭🇰 动态BGP+IPLC|广港02by轩动心弦","server":"flbgp.yixuedianzishu.com","port":58012,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","tls":false},{"type":"vmess","cipher":"auto","name":"🇭🇰 动态BGP+IPLC|广港01(原生)by轩动心弦","server":"flbgp.yixuedianzishu.com","port":58001,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","tls":false},{"type":"vmess","cipher":"auto","name":"🇭🇰 动态BGP+IPLC|广港02(原生)by轩动心弦","server":"flbgp.yixuedianzishu.com","port":58002,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","tls":false},{"type":"vmess","cipher":"auto","name":"🇭🇰 动态BGP+IPLC|广港03(原生)by轩动心弦","server":"flbgp.yixuedianzishu.com","port":58003,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","tls":false},{"type":"vmess","cipher":"auto","name":"🇸🇬 动态BGP+IPLC|广新01(原生)by轩动心弦","server":"flbgp.yixuedianzishu.com","port":58021,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","tls":false},{"type":"vmess","cipher":"auto","name":"🇨🇳 动态BGP+IPLC|广台01(原生)by轩动心弦","server":"flbgp.yixuedianzishu.com","port":58031,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","tls":false},{"type":"vmess","cipher":"auto","name":"🇺🇲 动态BGP+IPLC|广美01by轩动心弦","server":"flbgp.yixuedianzishu.com","port":58051,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","tls":false},{"type":"vmess","cipher":"auto","name":"🇭🇰 iplc|广港01by轩动心弦","server":"flzz.getxlx.com","port":59991,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz.getxlx.com"}},{"type":"vmess","cipher":"auto","name":"🇭🇰 iplc|广港02by轩动心弦","server":"flzz.getxlx.com","port":59992,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz.getxlx.com"}},{"type":"vmess","cipher":"auto","name":"🇭🇰 iplc|广港03by轩动心弦","server":"flzz.getxlx.com","port":59993,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz.getxlx.com"}},{"type":"vmess","cipher":"auto","name":"🇭🇰 iplc|广港04by轩动心弦","server":"flzz.getxlx.com","port":59998,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz.getxlx.com"}},{"type":"vmess","cipher":"auto","name":"🇭🇰 iplc|广港05by轩动心弦","server":"flzz.getxlx.com","port":59999,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz.getxlx.com"}},{"type":"vmess","cipher":"auto","name":"🇭🇰 iplc|广港-原生01by轩动心弦","server":"flzz.getxlx.com","port":59989,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa21/","ws-headers":{"host":"flzz.getxlx.com"}},{"type":"vmess","cipher":"auto","name":"🇭🇰 iplc|广港-原生02by轩动心弦","server":"flzz.getxlx.com","port":59988,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa21/","ws-headers":{"host":"flzz.getxlx.com"}},{"type":"vmess","cipher":"auto","name":"🇭🇰 iplc|广港-原生03by轩动心弦","server":"flzz.getxlx.com","port":59987,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa21/","ws-headers":{"host":"flzz.getxlx.com"}},{"type":"vmess","cipher":"auto","name":"🇸🇬 iplc|广新01by轩动心弦","server":"flzz.getxlx.com","port":59996,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz.getxlx.com"}},{"type":"vmess","cipher":"auto","name":"🇸🇬 iplc|广新02by轩动心弦","server":"flzz.getxlx.com","port":59997,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz.getxlx.com"}},{"type":"vmess","cipher":"auto","name":"🇨🇳 iplc|广台01by轩动心弦","server":"flzz.getxlx.com","port":59995,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz.getxlx.com"}},{"type":"vmess","cipher":"auto","name":"🇨🇳 iplc|广台02by轩动心弦","server":"flzz.getxlx.com","port":59981,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz.getxlx.com"}},{"type":"vmess","cipher":"auto","name":"🇨🇳 iplc|广台03by轩动心弦","server":"flzz.getxlx.com","port":59982,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz.getxlx.com"}},{"type":"vmess","cipher":"auto","name":"🇯🇵 iplc|广日by轩动心弦","server":"flzz.getxlx.com","port":59994,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz.getxlx.com"}},{"type":"vmess","cipher":"auto","name":"🇭🇰 中转|香港01","server":"flzz-hk.yixuedianzishu.com","port":41002,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-hk.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇭🇰 中转|香港02","server":"flzz-hk.yixuedianzishu.com","port":41007,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-hk.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇭🇰 中转|香港03","server":"flzz-hk.yixuedianzishu.com","port":41012,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-hk.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇭🇰 中转|香港04","server":"flzz-hk.yixuedianzishu.com","port":41013,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-hk.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇨🇳 中转|台湾01","server":"flzz-tw.yixuedianzishu.com","port":41003,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-tw.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇨🇳 中转|台湾02","server":"flzz-tw.yixuedianzishu.com","port":41008,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-tw.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇨🇳 中转|台湾03","server":"flzz-tw.yixuedianzishu.com","port":41009,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-tw.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇸🇬 中转|新加坡01","server":"flzz-sg.yixuedianzishu.com","port":41015,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-sg.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇸🇬 中转|新加坡02","server":"flzz-sg.yixuedianzishu.com","port":41016,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-sg.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇸🇬 中转|新加坡03","server":"flzz-sg.yixuedianzishu.com","port":41017,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-sg.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇯🇵 中转|日本01","server":"flzz-jp.yixuedianzishu.com","port":41001,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-jp.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇯🇵 中转|日本02","server":"flzz-jp.yixuedianzishu.com","port":41020,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-jp.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇰🇷 中转|韩国","server":"flzz-kr.yixuedianzishu.com","port":41006,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-kr.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇺🇲 中转|美国01","server":"flzz-us.yixuedianzishu.com","port":41004,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-us.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇺🇲 中转|美国02","server":"flzz-us.yixuedianzishu.com","port":41014,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-us.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇨🇦 中转|加拿大","server":"flzz-us.yixuedianzishu.com","port":41005,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flzz-us.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇭🇰 Anycast|香港","server":"flcn.yixuedianzishu.com","port":51517,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇸🇬 Anycast|新加坡","server":"flcn.yixuedianzishu.com","port":51511,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇯🇵 Anycast|日本","server":"flcn.yixuedianzishu.com","port":51512,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇨🇳 Anycast|台湾","server":"flcn.yixuedianzishu.com","port":51514,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇺🇲 Anycast|美国","server":"flcn.yixuedianzishu.com","port":51513,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇬🇧 Anycast|英国","server":"flcn.yixuedianzishu.com","port":51518,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇩🇪 Anycast|德国","server":"flcn.yixuedianzishu.com","port":51519,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇨🇦 Anycast|加拿大","server":"flcn.yixuedianzishu.com","port":51520,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇰🇷 Anycast|韩国","server":"flcn.yixuedianzishu.com","port":51522,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇷🇺 Anycast|俄罗斯","server":"flcn.yixuedianzishu.com","port":51525,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇳🇱 Anycast|荷兰","server":"flcn.yixuedianzishu.com","port":51523,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇮🇳 Anycast|印度","server":"flcn.yixuedianzishu.com","port":51524,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇫🇷 Anycast|法国","server":"flcn.yixuedianzishu.com","port":51526,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇦🇷 Anycast|阿根廷","server":"flcn.yixuedianzishu.com","port":51529,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇧🇷 Anycast|巴西","server":"flcn.yixuedianzishu.com","port":51530,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇹🇷 Anycast|土耳其","server":"flcn.yixuedianzishu.com","port":51531,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}},{"type":"vmess","cipher":"auto","name":"🇦🇺 Anycast|澳大利亚","server":"flcn.yixuedianzishu.com","port":51521,"udp":false,"uuid":"d148f13b-261a-34d0-ad55-a17df7298eee","alterId":"2","network":"ws","tls":true,"skip-cert-verify":false,"ws-path":"/564dfa20/","ws-headers":{"host":"flcn.yixuedianzishu.com"}}]
+
+proxy-groups:
+- type: select
+  name: 🚀 Proxy
+  proxies: ["🇸🇬 4.6请大家更新订阅，更新时关闭代理","🇭🇰 动态BGP+IPLC|广港01by轩动心弦","🇭🇰 动态BGP+IPLC|广港02by轩动心弦","🇭🇰 动态BGP+IPLC|广港01(原生)by轩动心弦","🇭🇰 动态BGP+IPLC|广港02(原生)by轩动心弦","🇭🇰 动态BGP+IPLC|广港03(原生)by轩动心弦","🇸🇬 动态BGP+IPLC|广新01(原生)by轩动心弦","🇨🇳 动态BGP+IPLC|广台01(原生)by轩动心弦","🇺🇲 动态BGP+IPLC|广美01by轩动心弦","🇭🇰 iplc|广港01by轩动心弦","🇭🇰 iplc|广港02by轩动心弦","🇭🇰 iplc|广港03by轩动心弦","🇭🇰 iplc|广港04by轩动心弦","🇭🇰 iplc|广港05by轩动心弦","🇭🇰 iplc|广港-原生01by轩动心弦","🇭🇰 iplc|广港-原生02by轩动心弦","🇭🇰 iplc|广港-原生03by轩动心弦","🇸🇬 iplc|广新01by轩动心弦","🇸🇬 iplc|广新02by轩动心弦","🇨🇳 iplc|广台01by轩动心弦","🇨🇳 iplc|广台02by轩动心弦","🇨🇳 iplc|广台03by轩动心弦","🇯🇵 iplc|广日by轩动心弦","🇭🇰 中转|香港01","🇭🇰 中转|香港02","🇭🇰 中转|香港03","🇭🇰 中转|香港04","🇨🇳 中转|台湾01","🇨🇳 中转|台湾02","🇨🇳 中转|台湾03","🇸🇬 中转|新加坡01","🇸🇬 中转|新加坡02","🇸🇬 中转|新加坡03","🇯🇵 中转|日本01","🇯🇵 中转|日本02","🇰🇷 中转|韩国","🇺🇲 中转|美国01","🇺🇲 中转|美国02","🇨🇦 中转|加拿大","🇭🇰 Anycast|香港","🇸🇬 Anycast|新加坡","🇯🇵 Anycast|日本","🇨🇳 Anycast|台湾","🇺🇲 Anycast|美国","🇬🇧 Anycast|英国","🇩🇪 Anycast|德国","🇨🇦 Anycast|加拿大","🇰🇷 Anycast|韩国","🇷🇺 Anycast|俄罗斯","🇳🇱 Anycast|荷兰","🇮🇳 Anycast|印度","🇫🇷 Anycast|法国","🇦🇷 Anycast|阿根廷","🇧🇷 Anycast|巴西","🇹🇷 Anycast|土耳其","🇦🇺 Anycast|澳大利亚"]
+- type: select
+  name: 🎬 Netflix
+  proxies: ["🇸🇬 4.6请大家更新订阅，更新时关闭代理","🇭🇰 动态BGP+IPLC|广港01by轩动心弦","🇭🇰 动态BGP+IPLC|广港02by轩动心弦","🇭🇰 动态BGP+IPLC|广港01(原生)by轩动心弦","🇭🇰 动态BGP+IPLC|广港02(原生)by轩动心弦","🇭🇰 动态BGP+IPLC|广港03(原生)by轩动心弦","🇸🇬 动态BGP+IPLC|广新01(原生)by轩动心弦","🇨🇳 动态BGP+IPLC|广台01(原生)by轩动心弦","🇺🇲 动态BGP+IPLC|广美01by轩动心弦","🇭🇰 iplc|广港01by轩动心弦","🇭🇰 iplc|广港02by轩动心弦","🇭🇰 iplc|广港03by轩动心弦","🇭🇰 iplc|广港04by轩动心弦","🇭🇰 iplc|广港05by轩动心弦","🇭🇰 iplc|广港-原生01by轩动心弦","🇭🇰 iplc|广港-原生02by轩动心弦","🇭🇰 iplc|广港-原生03by轩动心弦","🇸🇬 iplc|广新01by轩动心弦","🇸🇬 iplc|广新02by轩动心弦","🇨🇳 iplc|广台01by轩动心弦","🇨🇳 iplc|广台02by轩动心弦","🇨🇳 iplc|广台03by轩动心弦","🇯🇵 iplc|广日by轩动心弦","🇭🇰 中转|香港01","🇭🇰 中转|香港02","🇭🇰 中转|香港03","🇭🇰 中转|香港04","🇨🇳 中转|台湾01","🇨🇳 中转|台湾02","🇨🇳 中转|台湾03","🇸🇬 中转|新加坡01","🇸🇬 中转|新加坡02","🇸🇬 中转|新加坡03","🇯🇵 中转|日本01","🇯🇵 中转|日本02","🇰🇷 中转|韩国","🇺🇲 中转|美国01","🇺🇲 中转|美国02","🇨🇦 中转|加拿大","🇭🇰 Anycast|香港","🇸🇬 Anycast|新加坡","🇯🇵 Anycast|日本","🇨🇳 Anycast|台湾","🇺🇲 Anycast|美国","🇬🇧 Anycast|英国","🇩🇪 Anycast|德国","🇨🇦 Anycast|加拿大","🇰🇷 Anycast|韩国","🇷🇺 Anycast|俄罗斯","🇳🇱 Anycast|荷兰","🇮🇳 Anycast|印度","🇫🇷 Anycast|法国","🇦🇷 Anycast|阿根廷","🇧🇷 Anycast|巴西","🇹🇷 Anycast|土耳其","🇦🇺 Anycast|澳大利亚"]
+- type: select
+  name: 📺 Youtube
+  proxies: 
+    - 🚀 Proxy
+    - 🇭🇰 香港
+    - 🇺🇸 美国
+- type: select
+  name: 🇭🇰 香港
+  proxies: ["🇭🇰 动态BGP+IPLC|广港01by轩动心弦","🇭🇰 动态BGP+IPLC|广港02by轩动心弦","🇭🇰 动态BGP+IPLC|广港01(原生)by轩动心弦","🇭🇰 动态BGP+IPLC|广港02(原生)by轩动心弦","🇭🇰 动态BGP+IPLC|广港03(原生)by轩动心弦","🇭🇰 iplc|广港01by轩动心弦","🇭🇰 iplc|广港02by轩动心弦","🇭🇰 iplc|广港03by轩动心弦","🇭🇰 iplc|广港04by轩动心弦","🇭🇰 iplc|广港05by轩动心弦","🇭🇰 iplc|广港-原生01by轩动心弦","🇭🇰 iplc|广港-原生02by轩动心弦","🇭🇰 iplc|广港-原生03by轩动心弦","🇭🇰 中转|香港01","🇭🇰 中转|香港02","🇭🇰 中转|香港03","🇭🇰 中转|香港04","🇭🇰 Anycast|香港"]
+- type: select
+  name: 🇺🇸 美国
+  proxies: ["🇺🇲 动态BGP+IPLC|广美01by轩动心弦","🇺🇲 中转|美国01","🇺🇲 中转|美国02","🇺🇲 Anycast|美国"]
+
+
+
+rules:
+# Netflix
+- DOMAIN,netflix.com.edgesuite.net,🎬 Netflix
+- DOMAIN-SUFFIX,fast.com,🎬 Netflix
+- DOMAIN-SUFFIX,netflix.com,🎬 Netflix
+- DOMAIN-SUFFIX,netflix.net,🎬 Netflix
+- DOMAIN-SUFFIX,netflixdnstest0.com,🎬 Netflix
+- DOMAIN-SUFFIX,netflixdnstest1.com,🎬 Netflix
+- DOMAIN-SUFFIX,netflixdnstest2.com,🎬 Netflix
+- DOMAIN-SUFFIX,netflixdnstest3.com,🎬 Netflix
+- DOMAIN-SUFFIX,netflixdnstest4.com,🎬 Netflix
+- DOMAIN-SUFFIX,netflixdnstest5.com,🎬 Netflix
+- DOMAIN-SUFFIX,netflixdnstest6.com,🎬 Netflix
+- DOMAIN-SUFFIX,netflixdnstest7.com,🎬 Netflix
+- DOMAIN-SUFFIX,netflixdnstest8.com,🎬 Netflix
+- DOMAIN-SUFFIX,netflixdnstest9.com,🎬 Netflix
+- DOMAIN-SUFFIX,nflxext.com,🎬 Netflix
+- DOMAIN-SUFFIX,nflximg.com,🎬 Netflix
+- DOMAIN-SUFFIX,nflximg.net,🎬 Netflix
+- DOMAIN-SUFFIX,nflxso.net,🎬 Netflix
+- DOMAIN-SUFFIX,nflxvideo.net,🎬 Netflix
+- DOMAIN-KEYWORD,dualstack.apiproxy-,🎬 Netflix
+- DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎬 Netflix
+- IP-CIDR,103.87.204.0/22,🎬 Netflix
+- IP-CIDR,108.175.32.0/20,🎬 Netflix
+- IP-CIDR,185.2.220.0/22,🎬 Netflix
+- IP-CIDR,185.9.188.0/22,🎬 Netflix
+- IP-CIDR,192.173.64.0/18,🎬 Netflix
+- IP-CIDR,198.38.96.0/19,🎬 Netflix
+- IP-CIDR,198.45.48.0/20,🎬 Netflix
+- IP-CIDR,207.45.72.0/22,🎬 Netflix
+- IP-CIDR,208.75.76.0/22,🎬 Netflix
+- IP-CIDR,23.246.0.0/18,🎬 Netflix
+- IP-CIDR,34.210.42.111/32,🎬 Netflix
+- IP-CIDR,37.77.184.0/21,🎬 Netflix
+- IP-CIDR,38.72.126.0/24,🎬 Netflix
+- IP-CIDR,45.57.0.0/17,🎬 Netflix
+- IP-CIDR,52.89.124.203/32,🎬 Netflix
+- IP-CIDR,54.148.37.5/32,🎬 Netflix
+- IP-CIDR,64.120.128.0/17,🎬 Netflix
+- IP-CIDR,66.197.128.0/17,🎬 Netflix
+- IP-CIDR,69.53.224.0/19,🎬 Netflix
+- IP-CIDR,8.41.4.0/24,🎬 Netflix
+# YouTube
+- DOMAIN,youtubei.googleapis.com,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com,📺 Youtube
+- DOMAIN-SUFFIX,googlevideo.com,📺 Youtube
+- DOMAIN-SUFFIX,youtube-nocookie.com,📺 Youtube
+- DOMAIN-SUFFIX,youtu.be,📺 Youtube
+- DOMAIN,youtubei.googleapis.com,📺 Youtube
+- DOMAIN,yt3.ggpht.com,📺 Youtube
+- DOMAIN-SUFFIX,.youtube,📺 Youtube
+- DOMAIN-SUFFIX,ggpht.cn,📺 Youtube
+- DOMAIN-SUFFIX,ggpht.com,📺 Youtube
+- DOMAIN-SUFFIX,googlevideo.com,📺 Youtube
+- DOMAIN-SUFFIX,gvt2.com,📺 Youtube
+- DOMAIN-SUFFIX,withyoutube.com,📺 Youtube
+- DOMAIN-SUFFIX,youtu.be,📺 Youtube
+- DOMAIN-SUFFIX,youtube-nocookie.com,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ae,📺 Youtube
+- DOMAIN-SUFFIX,youtube.al,📺 Youtube
+- DOMAIN-SUFFIX,youtube.am,📺 Youtube
+- DOMAIN-SUFFIX,youtube.at,📺 Youtube
+- DOMAIN-SUFFIX,youtube.az,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ba,📺 Youtube
+- DOMAIN-SUFFIX,youtube.be,📺 Youtube
+- DOMAIN-SUFFIX,youtube.bg,📺 Youtube
+- DOMAIN-SUFFIX,youtube.bh,📺 Youtube
+- DOMAIN-SUFFIX,youtube.bo,📺 Youtube
+- DOMAIN-SUFFIX,youtube.by,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ca,📺 Youtube
+- DOMAIN-SUFFIX,youtube.cat,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ch,📺 Youtube
+- DOMAIN-SUFFIX,youtube.cl,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.ae,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.at,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.cr,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.hu,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.id,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.il,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.in,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.jp,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.ke,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.kr,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.ma,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.nz,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.th,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.tz,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.ug,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.uk,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.ve,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.za,📺 Youtube
+- DOMAIN-SUFFIX,youtube.co.zw,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.ar,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.au,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.az,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.bd,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.bh,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.bo,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.br,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.by,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.co,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.do,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.ec,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.ee,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.eg,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.es,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.gh,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.gr,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.gt,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.hk,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.hn,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.hr,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.jm,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.jo,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.kw,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.lb,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.lv,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.ly,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.mk,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.mt,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.mx,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.my,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.ng,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.ni,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.om,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.pa,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.pe,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.ph,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.pk,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.pt,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.py,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.qa,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.ro,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.sa,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.sg,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.sv,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.tn,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.tr,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.tw,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.ua,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.uy,📺 Youtube
+- DOMAIN-SUFFIX,youtube.com.ve,📺 Youtube
+- DOMAIN-SUFFIX,youtube.cr,📺 Youtube
+- DOMAIN-SUFFIX,youtube.cz,📺 Youtube
+- DOMAIN-SUFFIX,youtube.de,📺 Youtube
+- DOMAIN-SUFFIX,youtube.dk,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ee,📺 Youtube
+- DOMAIN-SUFFIX,youtube.es,📺 Youtube
+- DOMAIN-SUFFIX,youtube.fi,📺 Youtube
+- DOMAIN-SUFFIX,youtube.fr,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ge,📺 Youtube
+- DOMAIN-SUFFIX,youtube.gr,📺 Youtube
+- DOMAIN-SUFFIX,youtube.gt,📺 Youtube
+- DOMAIN-SUFFIX,youtube.hk,📺 Youtube
+- DOMAIN-SUFFIX,youtube.hr,📺 Youtube
+- DOMAIN-SUFFIX,youtube.hu,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ie,📺 Youtube
+- DOMAIN-SUFFIX,youtube.in,📺 Youtube
+- DOMAIN-SUFFIX,youtube.iq,📺 Youtube
+- DOMAIN-SUFFIX,youtube.is,📺 Youtube
+- DOMAIN-SUFFIX,youtube.it,📺 Youtube
+- DOMAIN-SUFFIX,youtube.jo,📺 Youtube
+- DOMAIN-SUFFIX,youtube.jp,📺 Youtube
+- DOMAIN-SUFFIX,youtube.kr,📺 Youtube
+- DOMAIN-SUFFIX,youtube.kz,📺 Youtube
+- DOMAIN-SUFFIX,youtube.la,📺 Youtube
+- DOMAIN-SUFFIX,youtube.lk,📺 Youtube
+- DOMAIN-SUFFIX,youtube.lt,📺 Youtube
+- DOMAIN-SUFFIX,youtube.lu,📺 Youtube
+- DOMAIN-SUFFIX,youtube.lv,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ly,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ma,📺 Youtube
+- DOMAIN-SUFFIX,youtube.md,📺 Youtube
+- DOMAIN-SUFFIX,youtube.me,📺 Youtube
+- DOMAIN-SUFFIX,youtube.mk,📺 Youtube
+- DOMAIN-SUFFIX,youtube.mn,📺 Youtube
+- DOMAIN-SUFFIX,youtube.mx,📺 Youtube
+- DOMAIN-SUFFIX,youtube.my,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ng,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ni,📺 Youtube
+- DOMAIN-SUFFIX,youtube.nl,📺 Youtube
+- DOMAIN-SUFFIX,youtube.no,📺 Youtube
+- DOMAIN-SUFFIX,youtube.pa,📺 Youtube
+- DOMAIN-SUFFIX,youtube.pe,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ph,📺 Youtube
+- DOMAIN-SUFFIX,youtube.pk,📺 Youtube
+- DOMAIN-SUFFIX,youtube.pl,📺 Youtube
+- DOMAIN-SUFFIX,youtube.pr,📺 Youtube
+- DOMAIN-SUFFIX,youtube.pt,📺 Youtube
+- DOMAIN-SUFFIX,youtube.qa,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ro,📺 Youtube
+- DOMAIN-SUFFIX,youtube.rs,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ru,📺 Youtube
+- DOMAIN-SUFFIX,youtube.sa,📺 Youtube
+- DOMAIN-SUFFIX,youtube.se,📺 Youtube
+- DOMAIN-SUFFIX,youtube.sg,📺 Youtube
+- DOMAIN-SUFFIX,youtube.si,📺 Youtube
+- DOMAIN-SUFFIX,youtube.sk,📺 Youtube
+- DOMAIN-SUFFIX,youtube.sn,📺 Youtube
+- DOMAIN-SUFFIX,youtube.soy,📺 Youtube
+- DOMAIN-SUFFIX,youtube.sv,📺 Youtube
+- DOMAIN-SUFFIX,youtube.tn,📺 Youtube
+- DOMAIN-SUFFIX,youtube.tv,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ua,📺 Youtube
+- DOMAIN-SUFFIX,youtube.ug,📺 Youtube
+- DOMAIN-SUFFIX,youtube.uy,📺 Youtube
+- DOMAIN-SUFFIX,youtube.vn,📺 Youtube
+- DOMAIN-SUFFIX,youtubeeducation.com,📺 Youtube
+- DOMAIN-SUFFIX,youtubefanfest.com,📺 Youtube
+- DOMAIN-SUFFIX,youtubegaming.com,📺 Youtube
+- DOMAIN-SUFFIX,youtubego.co.id,📺 Youtube
+- DOMAIN-SUFFIX,youtubego.co.in,📺 Youtube
+- DOMAIN-SUFFIX,youtubego.com,📺 Youtube
+- DOMAIN-SUFFIX,youtubego.com.br,📺 Youtube
+- DOMAIN-SUFFIX,youtubego.id,📺 Youtube
+- DOMAIN-SUFFIX,youtubego.in,📺 Youtube
+- DOMAIN-SUFFIX,youtubei.googleapis.com,📺 Youtube
+- DOMAIN-SUFFIX,youtubekids.com,📺 Youtube
+- DOMAIN-SUFFIX,youtubemobilesupport.com,📺 Youtube
+- DOMAIN-SUFFIX,yt.be,📺 Youtube
+- DOMAIN-SUFFIX,ytimg.com,📺 Youtube
+- DOMAIN-KEYWORD,youtube,📺 Youtube
+- IP-CIDR,172.110.32.0/21,📺 Youtube
+- IP-CIDR,216.73.80.0/20,📺 Youtube
+# Youtube Music
+- DOMAIN-SUFFIX,music.youtube.com,📺 Youtube
+# Alibaba
+- DOMAIN-KEYWORD,alibaba-inc,DIRECT
+- DOMAIN-KEYWORD,alibaba,DIRECT
+- DOMAIN-KEYWORD,alipay-inc,DIRECT
+- DOMAIN-KEYWORD,aliyuncs,DIRECT
+- DOMAIN-KEYWORD,alipay,DIRECT
+- DOMAIN-KEYWORD,taobao,DIRECT
+- DOMAIN-KEYWORD,alicdn,DIRECT
+- DOMAIN-KEYWORD,aliyun,DIRECT
+- DOMAIN-KEYWORD,9game,DIRECT
+- DOMAIN-KEYWORD,ucweb,DIRECT
+# Battle.net
+- DOMAIN-SUFFIX,blizzard.com,DIRECT
+- DOMAIN-SUFFIX,battle.net,DIRECT
+# P2P
+- PROCESS-NAME,*Folx*,DIRECT
+- PROCESS-NAME,*Thunder*,DIRECT
+- PROCESS-NAME,*DownloadService*,DIRECT
+- PROCESS-NAME,*Soda*,DIRECT
+- PROCESS-NAME,*p4pclient*,DIRECT
+- PROCESS-NAME,aria2c,DIRECT
+- PROCESS-NAME,fdm,DIRECT
+- PROCESS-NAME,Folx,DIRECT
+- PROCESS-NAME,NetTransport,DIRECT
+- PROCESS-NAME,Transmission,DIRECT
+- PROCESS-NAME,uTorrent,DIRECT
+- PROCESS-NAME,WebTorrent,DIRECT
+- PROCESS-NAME,WebTorrent Helper,DIRECT
+- DOMAIN-KEYWORD,tracker,DIRECT
+# Booking
+- DOMAIN-SUFFIX,booking.com,DIRECT
+- DOMAIN-SUFFIX,booking.cn,DIRECT
+# Misc
+- PROCESS-NAME,百度网盘,DIRECT
+- PROCESS-NAME,*Clash*,DIRECT
+- PROCESS-NAME,*clash*,DIRECT
+- PROCESS-NAME,v2ray,DIRECT
+- PROCESS-NAME,ss-local,DIRECT
+- PROCESS-NAME,ssr-local,DIRECT
+# iStat Menu IP Test
+- DOMAIN,ip.bjango.com,DIRECT
+- DOMAIN-SUFFIX,biquge.com.tw,DIRECT
+- DOMAIN-SUFFIX,maoyun.tv,DIRECT
+- DOMAIN-SUFFIX,moke.com,DIRECT
+- DOMAIN-SUFFIX,test-ipv6.com,DIRECT
+- DOMAIN-SUFFIX,zimuzu.tv,DIRECT
+- DOMAIN-SUFFIX,zmzapi.com,DIRECT
+- DOMAIN-SUFFIX,zmzapi.net,DIRECT
+- DOMAIN-SUFFIX,zmzfile.com,DIRECT
+# China Apps
+- DOMAIN-SUFFIX,cn,DIRECT
+- DOMAIN-KEYWORD,-cn,DIRECT
+- DOMAIN-KEYWORD,alicdn,DIRECT
+- DOMAIN-SUFFIX,126.com,DIRECT
+- DOMAIN-SUFFIX,126.net,DIRECT
+- DOMAIN-SUFFIX,127.net,DIRECT
+- DOMAIN-SUFFIX,163.com,DIRECT
+- DOMAIN-SUFFIX,360buyimg.com,DIRECT
+- DOMAIN-SUFFIX,36kr.com,DIRECT
+- DOMAIN-SUFFIX,acfun.tv,DIRECT
+- DOMAIN-SUFFIX,air-matters.com,DIRECT
+- DOMAIN-SUFFIX,aixifan.com,DIRECT
+- DOMAIN-SUFFIX,weibo.com,DIRECT
+- DOMAIN-SUFFIX,alipayobjects.com,DIRECT
+- DOMAIN-SUFFIX,amap.com,DIRECT
+- DOMAIN-SUFFIX,autonavi.com,DIRECT
+- DOMAIN-SUFFIX,baidu.com,DIRECT
+- DOMAIN-SUFFIX,baidupcs.com,DIRECT
+- DOMAIN-SUFFIX,bdimg.com,DIRECT
+- DOMAIN-SUFFIX,bdstatic.com,DIRECT
+- DOMAIN-SUFFIX,bilibili.com,DIRECT
+- DOMAIN-SUFFIX,caiyunapp.com,DIRECT
+- DOMAIN-SUFFIX,clouddn.com,DIRECT
+- DOMAIN-SUFFIX,cnbeta.com,DIRECT
+- DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
+- DOMAIN-SUFFIX,cootekservice.com,DIRECT
+- DOMAIN-SUFFIX,csdn.net,DIRECT
+- DOMAIN-SUFFIX,ctrip.com,DIRECT
+- DOMAIN-SUFFIX,dgtle.com,DIRECT
+- DOMAIN-SUFFIX,dianping.com,DIRECT
+- DOMAIN-SUFFIX,douban.com,DIRECT
+- DOMAIN-SUFFIX,doubanio.com,DIRECT
+- DOMAIN-SUFFIX,duokan.com,DIRECT
+- DOMAIN-SUFFIX,easou.com,DIRECT
+- DOMAIN-SUFFIX,ele.me,DIRECT
+- DOMAIN-SUFFIX,fast.com,DIRECT
+- DOMAIN-SUFFIX,feng.com,DIRECT
+- DOMAIN-SUFFIX,fir.im,DIRECT
+- DOMAIN-SUFFIX,frdic.com,DIRECT
+- DOMAIN-SUFFIX,g-cores.com,DIRECT
+- DOMAIN-SUFFIX,godic.net,DIRECT
+- DOMAIN-SUFFIX,gtimg.com,DIRECT
+- DOMAIN-SUFFIX,hongxiu.com,DIRECT
+- DOMAIN-SUFFIX,hxcdn.net,DIRECT
+- DOMAIN-SUFFIX,iciba.com,DIRECT
+- DOMAIN-SUFFIX,ifeng.com,DIRECT
+- DOMAIN-SUFFIX,ifengimg.com,DIRECT
+- DOMAIN-SUFFIX,images-amazon.com,DIRECT
+- DOMAIN-SUFFIX,ipip.net,DIRECT
+- DOMAIN-SUFFIX,iqiyi.com,DIRECT
+- DOMAIN-SUFFIX,jd.com,DIRECT
+- DOMAIN-SUFFIX,jianshu.com,DIRECT
+- DOMAIN-SUFFIX,knewone.com,DIRECT
+- DOMAIN-SUFFIX,le.com,DIRECT
+- DOMAIN-SUFFIX,lecloud.com,DIRECT
+- DOMAIN-SUFFIX,lemicp.com,DIRECT
+- DOMAIN-SUFFIX,luoo.net,DIRECT
+- DOMAIN-SUFFIX,meituan.com,DIRECT
+- DOMAIN-SUFFIX,meituan.net,DIRECT
+- DOMAIN-SUFFIX,mi.com,DIRECT
+- DOMAIN-SUFFIX,miaopai.com,DIRECT
+- DOMAIN-SUFFIX,miui.com,DIRECT
+- DOMAIN-SUFFIX,miwifi.com,DIRECT
+- DOMAIN-SUFFIX,mob.com,DIRECT
+- DOMAIN-SUFFIX,netease.com,DIRECT
+- DOMAIN-SUFFIX,oschina.net,DIRECT
+- DOMAIN-SUFFIX,ppsimg.com,DIRECT
+- DOMAIN-SUFFIX,pstatp.com,DIRECT
+- DOMAIN-SUFFIX,qcloud.com,DIRECT
+- DOMAIN-SUFFIX,qdaily.com,DIRECT
+- DOMAIN-SUFFIX,qdmm.com,DIRECT
+- DOMAIN-SUFFIX,qhimg.com,DIRECT
+- DOMAIN-SUFFIX,qidian.com,DIRECT
+- DOMAIN-SUFFIX,qihucdn.com,DIRECT
+- DOMAIN-SUFFIX,qiniu.com,DIRECT
+- DOMAIN-SUFFIX,qiniucdn.com,DIRECT
+- DOMAIN-SUFFIX,qiyipic.com,DIRECT
+- DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,qqurl.com,DIRECT
+- DOMAIN-SUFFIX,rarbg.is,DIRECT
+- DOMAIN-SUFFIX,rr.tv,DIRECT
+- DOMAIN-SUFFIX,ruguoapp.com,DIRECT
+- DOMAIN-SUFFIX,segmentfault.com,DIRECT
+- DOMAIN-SUFFIX,sinaapp.com,DIRECT
+- DOMAIN-SUFFIX,sogou.com,DIRECT
+- DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+- DOMAIN-SUFFIX,sohu.com,DIRECT
+- DOMAIN-SUFFIX,soku.com,DIRECT
+- DOMAIN-SUFFIX,speedtest.net,DIRECT
+- DOMAIN-SUFFIX,sspai.com,DIRECT
+- DOMAIN-SUFFIX,suning.com,DIRECT
+- DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN-SUFFIX,tmall.com,DIRECT
+- DOMAIN-SUFFIX,tudou.com,DIRECT
+- DOMAIN-SUFFIX,umetrip.com,DIRECT
+- DOMAIN-SUFFIX,upaiyun.com,DIRECT
+- DOMAIN,update.microsoft.com,DIRECT
+- DOMAIN-SUFFIX,upyun.com,DIRECT
+- DOMAIN-SUFFIX,veryzhun.com,DIRECT
+- DOMAIN-SUFFIX,weibo.com,DIRECT
+- DOMAIN-SUFFIX,xiami.com,DIRECT
+- DOMAIN-SUFFIX,xiami.net,DIRECT
+- DOMAIN-SUFFIX,xiaomicp.com,DIRECT
+- DOMAIN-SUFFIX,ximalaya.com,DIRECT
+- DOMAIN-SUFFIX,xmcdn.com,DIRECT
+- DOMAIN-SUFFIX,xunlei.com,DIRECT
+- DOMAIN-SUFFIX,yhd.com,DIRECT
+- DOMAIN-SUFFIX,yihaodianimg.com,DIRECT
+- DOMAIN-SUFFIX,yinxiang.com,DIRECT
+- DOMAIN-SUFFIX,ykimg.com,DIRECT
+- DOMAIN-SUFFIX,youdao.com,DIRECT
+- DOMAIN-SUFFIX,youku.com,DIRECT
+- DOMAIN-SUFFIX,zealer.com,DIRECT
+- DOMAIN-SUFFIX,zhihu.com,DIRECT
+- DOMAIN-SUFFIX,zhimg.com,DIRECT
+- DOMAIN-SUFFIX,chinacloudapi.cn,DIRECT
+- DOMAIN-SUFFIX,mymm.com,DIRECT
+- DOMAIN-SUFFIX,akadns.net,DIRECT
+
+# LAN
+- DOMAIN-SUFFIX,local,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
+
+# Final
+- GEOIP,CN,DIRECT
+- MATCH,🚀 Proxy
